@@ -1,0 +1,212 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-montserrat: "Montserrat", sans-serif;
+$font-inter: "Inter", sans-serif;
+// Fonts end
+
+// Colors
+$color-background-main: #fff;
+$color-background-primary: #121c32;
+$color-background-secondary: #191a1e;
+$color-background-header: rgba(240, 241, 243, 0.6);
+$color-background-thirtly: #e5e8ed;
+$color-background-calendar: #1d1f24;
+$color-background-bottom-menu: #24262b;
+$color-background-extra-1: rgba(104, 104, 104, 0.2);
+$color-background-extra-2-color-1: #121c32;
+$color-background-extra-2-color-2: #1d2e57;
+$color-background-extra-3-color-1: #5ca7ec;
+$color-background-extra-3-color-2: #2d44c0;
+$color-background-extra-4: rgba(25, 26, 30, 0.35);
+$color-background-extra-5-color-1: #f2f4f7;
+$color-background-extra-5-color-2: #d8dee7;
+$color-background-extra-6: rgba(105, 109, 123, 0.2);
+$color-background-extra-7: #f4f7fc;
+$color-background-extra-8: rgba(40, 42, 49, 0.6);
+$color-background-extra-9: rgba(244, 247, 252, 0.15);
+$color-background-extra-10-color-1: #ffce5a;
+$color-background-extra-10-color-2: #ff8b29;
+$color-background-extra-11-color-1: #fec600;
+$color-background-extra-11-color-2: #fd470e;
+$color-background-extra-12-color-1: #78ecd0;
+$color-background-extra-12-color-2: #0b6699;
+$color-background-extra-13: rgba(25, 26, 30, 0.7);
+$color-background-extra-14: #213159;
+$color-background-extra-15: rgba(25, 26, 30, 0.86);
+$color-background-gradient-color-1: #24262b;
+$color-background-gradient-color-2: rgba(36, 38, 43, 0.68);
+$color-background-gradient-color-3: rgba(36, 38, 43, 0);
+$color-background-gradient-2-color-1: rgba(25, 26, 30, 0);
+$color-background-gradient-2-color-2: #191a1e;
+$color-background-gradient-3-color-1: rgba(18, 28, 50, 0);
+$color-background-gradient-3-color-2: #121c32;
+$color-text-color-primary: #0a101e;
+$color-text-color-secondary: #fff;
+$color-text-color-contrast: #e21502;
+$color-text-color-extra-1: #727683;
+$color-text-color-extra-2: #121c32;
+$color-text-color-extra-3: #21ca6f;
+$color-text-color-extra-4: #191a1e;
+$color-button-primary-bg-color-1: #e21502;
+$color-button-primary-text: #f4f7fc;
+$color-button-primary-bg-color-2: #e21502;
+$color-button-secondary-bg: #f6851b;
+$color-button-primary-bg-hover-color-1: #e4761b;
+$color-button-primary-bg-hover-color-2: #e4761b;
+$color-button-primary-text-hover: #f4f7fc;
+$color-button-primary-bg-active-color-1: #e4761b;
+$color-button-primary-bg-active-color-2: #e42f1f;
+$color-button-primary-text-active: #f4f7fc;
+$color-button-secondary-border: #f6851b;
+$color-button-secondary-text: #000;
+$color-button-secondary-bg-hover: #fd470e;
+$color-button-secondary-border-color-hover: #fd470e;
+$color-button-secondary-text-hover: #f4f7fc;
+$color-button-secondary-bg-active: #f6851b;
+$color-button-secondary-border-color-active: #f6851b;
+$color-button-secondary-text-active: #000;
+$color-button-special-bg: #32343b;
+$color-button-special-border: #cd6116;
+$color-button-special-text: #f4f7fc;
+$color-button-special-icon: #f6851b;
+$color-button-special-bg-hover: #213159;
+$color-button-special-border-hover: #191a1e;
+$color-button-special-text-hover: #f4f7fc;
+$color-button-special-icon-hover: #121c32;
+$color-button-special-bg-active: #182440;
+$color-button-special-border-active: #191a1e;
+$color-button-special-text-active: #f4f7fc;
+$color-button-special-icon-active: #f4f7fc;
+$color-button-text-color: #e22507;
+$color-button-text-color-hover: #f6851b;
+$color-button-text-color-active: #f6851b;
+$color-button-extra-1-bg-color-1: #32343b;
+$color-button-extra-1-text: #f4f7fc;
+$color-button-extra-1-bg-hover-color-1: #191a1e;
+$color-button-extra-1-text-hover: #f4f7fc;
+$color-button-extra-1-bg-active-color-1: rgba(0, 0, 0, 0.2);
+$color-button-extra-1-text-active: #f4f7fc;
+$color-button-extra-1-bg-color-2: #191a1e;
+$color-button-extra-1-bg-hover-color-2: #32343b;
+$color-button-extra-1-bg-active-color-2: #191a1e;
+$color-button-extra-1-bg-active-color-3: #32343b;
+$color-button-extra-2-bg-color-1: #32343b;
+$color-button-extra-2-text: #f4f7fc;
+$color-button-extra-2-bg-hover-color-2: #32343b;
+$color-button-extra-2-text-hover: #f4f7fc;
+$color-button-extra-2-bg-active-color-1: rgba(0, 0, 0, 0.2);
+$color-button-extra-2-bg-hover-color-1: #24262b;
+$color-button-extra-2-bg-color-2: #24262b;
+$color-button-extra-2-bg-active-color-2: #24262b;
+$color-button-extra-2-text-active: #f4f7fc;
+$color-button-extra-2-bg-active-color-3: #32343b;
+$color-button-extra-3-bg-color-1: #e5e4e5;
+$color-button-extra-3-bg-color-2: #eaeaea;
+$color-button-extra-3-text: #24262b;
+$color-button-extra-3-bg-hover-color-1: #fce3cb;
+$color-button-extra-3-bg-hover-color-2: #fdebda;
+$color-button-extra-3-text-hover: #24262b;
+$color-button-extra-3-bg-active-color-1: rgba(229, 228, 229, 0.2);
+$color-button-extra-3-bg-active-color-2: #eaeaea;
+$color-button-extra-3-bg-active-color-3: #e5e4e5;
+$color-button-extra-3-text-active: #24262b;
+$color-button-close-bg: #24262b;
+$color-button-close-bg-hover: #32343b;
+$color-button-close-border: #32343b;
+$color-button-close-border-hover: #32343b;
+$color-button-close-color: #696d7b;
+$color-button-close-color-hover: #f4f7fc;
+$color-search-bg: #24262b;
+$color-search-bg-extra: #d7d8da;
+$color-search-border-color: #afb0b5;
+$color-search-text: #e8e7e6;
+$color-search-icon: #f6851b;
+$color-search-bg-active: #191a1e;
+$color-search-border-color-active: #696d7b;
+$color-search-text-active: #f4f7fc;
+$color-arrow-bg: rgba(25, 26, 30, 0.5);
+$color-arrow-bg-hover: #191a1e;
+$color-arrow-icon: #f4f7fc;
+$color-table-head-color: #fff;
+$color-table-head-background: #213159;
+$color-table-color: #9a9fb1;
+$color-table-row: #f4f7fc;
+$color-table-row-extra: #e5e8ed;
+$color-table-border-color: #191a1e;
+$color-checkbox-border: #696d7b;
+$color-checkbox-border-active: #32343b;
+$color-checkbox-bg-active: #32343b;
+$color-checkbox-icon-active: #f4f7fc;
+$color-checkbox-color: #696d7b;
+$color-checkbox-color-active: #f4f7fc;
+$color-switch-bg: #24262b;
+$color-switch-bg-hover: #5ca7ec;
+$color-switch-border: #32343b;
+$color-switch-border-hover: #5ca7ec;
+$color-switch-disk: #696d7b;
+$color-switch-disk-active: #f4f7fc;
+$color-slider-dots-color: #cdcdcd;
+$color-slider-dots-color-active: #ff7b1c;
+$color-block-title-color: #f4f7fc;
+$color-block-title-icon: #ff7b1c;
+$color-indicator-correctly: #21ca6f;
+$color-indicator-error: #de2b2b;
+$color-indicator-warning: #ffc90a;
+$color-indicator-extra: #2f80ed;
+$color-shadow-header: rgba(199, 199, 202, 0.5);
+$color-shadow-sidebar: rgba(25, 26, 30, 0.4);
+$color-shadow-menu: rgba(25, 26, 30, 0.3);
+$color-shadow-modal: rgba(25, 26, 30, 0.3);
+$color-shadow-dropdown: rgba(25, 26, 30, 0.45);
+$color-shadow-button: rgba(25, 26, 30, 0.5);
+$color-shadow-marker-shadow: #5ca7ec;
+$color-blackout-background: rgba(25, 26, 30, 0.86);
+$color-footer-background: #0d1423;
+$color-footer-divider: #161e33;
+$color-footer-social-media-background: #fd470e;
+$color-footer-social-media-background-hover: #f6851b;
+$color-skeleton-inner-color-1: var(--background-secondary);
+$color-skeleton-inner-color-2: var(--background-primary);
+$color-skeleton-inner-color-3: var(--background-secondary);
+$color-checkbox-bg: rgba(255, 255, 255, 0);
+$color-checkbox-icon: rgba(255, 255, 255, 0);
+$color-skeleton-bg: #191a1e;
+$color-switch-theme-1-bg: #24262b;
+$color-switch-theme-1-disk-color-1: #4d65ba;
+$color-switch-theme-2-bg: #e9eff9;
+$color-switch-theme-2-disk-color-1: #86e2ff;
+$color-switch-theme-icon-active: #ffde6a;
+$color-switch-theme-icon-disabled: #696d7b;
+$color-switch-theme-1-disk-color-2: #142566;
+$color-switch-theme-2-disk-color-2: #117bb6;
+// Colors end
+
+@mixin media($value) {
+    @if ($value < 0) {
+        @media screen and (min-width: calc($value * (-1)) + 'px') {
+            @content;
+        }
+
+    } @else {
+        @media screen and (max-width: $value + 'px') {
+            @content;
+        }
+    }
+}
+
+@mixin sec-py() {
+    padding: 120px 0;
+
+    @include media(1750) {
+        padding: 60px 0;
+    }
+
+    @include media(900) {
+        padding: 40px 0;
+    }
+
+    @include media(700) {
+        padding: 20px 0;
+    }
+}
